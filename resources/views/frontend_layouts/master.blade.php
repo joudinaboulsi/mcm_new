@@ -43,21 +43,38 @@
   <!-- Loading... End -->
 
 
-@include('frontend_layouts.header')
+   @include('frontend_layouts.header')
 
   <!-- Cursor Animation -->
   <div class="cursor1"></div>
   <div class="cursor2"></div>
-
+  @if(Session::has('msg'))
+  <div class="popup modal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="commentLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+          <div class="modal-content">
+              <div class="modal-body">
+                  <button type="button" class="close close-btn-contact" data-bs-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                  </button>
+                  <div class="row p-4">
+                      <p class="text-3 mb-0">{{ session('msg') }}</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  @endif
 
   <main>
-    @yield('content')
+
+   @yield('content')
+
+
   </main>
 
 
-@include('frontend_layouts.footer')
- 
-
+   <!-- f00ter --> 
+   @include('frontend_layouts.footer')
 
   <!-- All JS files -->
   <script src="assets/js/jquery-3.6.0.min.js"></script>

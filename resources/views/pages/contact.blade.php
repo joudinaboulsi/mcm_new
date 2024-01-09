@@ -23,30 +23,44 @@
                 <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-7">
                     <div class="contact__content">
                         <h2 class="contact__title">Get in touch</h2>
-                        <p>Get in touch to discuss your employee wellbeing needs today. Please give us a call, drop us an
-                            email.
+                        <p>Fill the below form (all the fields are mandatory)
                         </p>
                         <div class="contact__form wow wcfadeUp" data-wow-delay="0.75s">
-                            <form action="#" class="row">
+                            <form action="{{route('contact_sent_path')}}"  method="POST" class="row">
+                                @csrf
                                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12">
                                     <!-- <label for="name">Name</label> -->
-                                    <input type="text" id="name" placeholder="Your name">
+                                    <input type="text" id="last_name" name="last_name" placeholder="Last Name">
+                                </div>
+
+                                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12">
+                                    <!-- <label for="name">Name</label> -->
+                                    <input type="text" id="first_name" name="first_name" placeholder="First Name">
                                 </div>
                                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12">
                                     <!-- <label for="email">Email</label> -->
-                                    <input type="email" id="email" placeholder="Your email">
+                                    <input type="email" id="email" name="email" placeholder="E-mail">
                                 </div>
                                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12">
                                     <!-- <label for="phone">Phone (Optional)</label> -->
-                                    <input type="tel" id="phone" placeholder="Your phone">
+                                    <input type="tel" id="phone" name="phone" placeholder="Phone Number">
+                                </div>
+                          
+                                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 mb-3">
+                                    <select name="sex" class="form-control">
+                                        <option selected> Select Gender</option>
+                                        <option value="male">Male</option>
+                                        <option value="female">Female</option>
+
+                                    </select>
                                 </div>
                                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12">
                                     <!-- <label for="subject">Subject</label> -->
-                                    <input type="text" id="subject" placeholder="Your subject">
+                                    <input type="text" id="subject" name="subject" placeholder="Your subject">
                                 </div>
                                 <div class="col-xxl-12">
                                     <!-- <label for="message">Message</label> -->
-                                    <textarea name="Message" id="message" placeholder="Type your message..."></textarea>
+                                    <textarea name="message" id="message" placeholder="Type your message..."></textarea>
                                 </div>
                                 <div class="col-xxl-12">
                                     <button class="submit wc-btn-primary btn-hover" type="submit"><span></span> Send
@@ -54,30 +68,32 @@
                                 </div>
                             </form>
                         </div>
-                        <div class="row">
-                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12">
-                                <div class="service__item wcfadeUp2">
-                                    <div class="service__item-inner">
+                       
+                    </div>
 
-                                        <h4 class="service__title-3">Contact Info</h4>
+                    <div class="row">
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12">
+                            <div class="service__item wcfadeUp2">
+                                <div class="service__item-inner">
 
-                                        <ul>
-                                            <li> Address: <p style="padding-bottom: 10px;!important"> Naher El Mot. Roumieh
-                                                    Road Industrial Area - Beirut - Lebanon</p>
-                                            </li>
-                                            <li> Telephone: <a href="tel:+ +961 1 330 363"> <span class="service__rm-3">+961
-                                                        1 330 363</span></a></li>
-                                            <li> Mobile: <a href="tel:"><span class="service__rm-3">+961 70 083 700
-                                                    </span></a></li>
-                                            <li> Fax: <a href="tel:+"><span class="service__rm-3">+961 1 330
-                                                        363</span></a></li>
-                                            <li> Email: <a href="mailto:info@mcm-concrete.com"><span
-                                                        class="service__rm-3">info@mcm-concrete.com</span></a>
-                                            </li>
-                                        </ul>
+                                    <h4 class="service__title-3">Contact Info</h4>
+
+                                    <ul>
+                                        <li> Address: <p style="padding-bottom: 10px;!important"> Naher El Mot. Roumieh
+                                                Road Industrial Area - Beirut - Lebanon</p>
+                                        </li>
+                                        <li> Telephone: <a href="tel:+ +961 1 330 363"> <span class="service__rm-3">+961
+                                                    1 330 363</span></a></li>
+                                        <li> Mobile: <a href="tel:"><span class="service__rm-3">+961 70 083 700
+                                                </span></a></li>
+                                        <li> Fax: <a href="tel:+"><span class="service__rm-3">+961 1 330
+                                                    363</span></a></li>
+                                        <li> Email: <a href="mailto:info@mcm-concrete.com"><span
+                                                    class="service__rm-3">info@mcm-concrete.com</span></a>
+                                        </li>
+                                    </ul>
 
 
-                                    </div>
                                 </div>
                             </div>
                         </div>

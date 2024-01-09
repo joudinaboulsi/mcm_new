@@ -21,5 +21,8 @@ Route::get('/projects','PagesController@projects')->name('projects_path');
 Route::get('/project-details','PagesController@projectDetails')->name('project_details_path');
 Route::get('/our-fleets','PagesController@fleets')->name('fleets_path');
 Route::get('/careers','PagesController@career')->name('career_path');
+Route::post('/career-sent','PagesController@sendCareer')->name('career_sent_path');
 Route::get('/e-booking','PagesController@booking')->name('booking_path');
+Route::post('/e-booking-sent','PagesController@sendBooking')->name('booking_sent_path');
 Route::get('/contact','PagesController@contact')->name('contact_path');
+Route::post('/contact-sent','PagesController@sendContactForm')->name('contact_sent_path');

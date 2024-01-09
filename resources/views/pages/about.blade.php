@@ -16,12 +16,13 @@
             <div class="row">
                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                     <div class="about__right-4">
-                        <h2 class="section-sub-title">About Company</h2>
-                        <h3 class="section-title">World’s largest and
-                            trusted architecture
-                            company</h3>
-                        <p class="about__right-4-text wow wcfadeUp" data-wow-delay="0.45s">MCM Concrete s.a.r.l is located
-                            in Naher el Mot,
+                        <div class="feature__title-wrapper-2">
+                            <h2 class="section-sub-title-2 wow wcfadeUp" data-wow-delay="0.15s">Company Profile</h2>
+                            <h3 class="section-title wow wcfadeUp" data-wow-delay="0.3s"> MCM Concrete s.a.r.l is located
+                                in Naher el Mot,</h3>
+                        </div>
+                      
+                        <p class="about__right-4-text wow wcfadeUp" data-wow-delay="0.45s">
                             supplying Ready Mix Concrete covering Mount
                             Lebanon & Beirut areas.</p>
 
@@ -36,17 +37,7 @@
                             customers with quality materials at competitve prices.
                         </p>
 
-                        <div class="about__counter-3">
-                            <div class="about__content-3">
-                                <h4 class="about__number about__number-3 wow wcfadeUp" data-wow-delay="0.75s">36+</h4>
-                                <h5 class="about__counter-title-3">Years <br>experience</h5>
-                            </div>
-                            <div class="about__content-3 wow wcfadeUp" data-wow-delay="0.9s">
-                                <button data-bs-toggle="modal" data-bs-target="#about_modal"><i
-                                        class="fa-solid fa-play"></i></button>
-                                <p>Watch Video</p>
-                            </div>
-                        </div>
+                     
                     </div>
                 </div>
                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
@@ -166,93 +157,5 @@
         </div>
     </section>
 
-    <!-- Team Area Start -->
-    <section class="team__area-4">
-        <div class="container line">
-            <span class="line-3"></span>
-            <span class="line-4"></span>
-            <span class="line-5"> </span>
-            <div class="row">
-                <div class="col-xxl-12">
-                    <div class="team__title-wrapper">
-                        <h2 class="section-sub-title wow wcfadeUp" data-wow-delay="0.3s">about team</h2>
-                        <h3 class="section-title wow wcfadeUp" data-wow-delay="0.45s">Meet the expert</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="row g-0">
-                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
-                    <div class="team__member wow wcfadeUp" data-wow-delay="0.15s">
-                        <div class="team__img">
-                            <a href="team-details.html"><img src="assets/imgs/team/1/member-1.jpg" alt="Team Member"
-                                    class="br-left"></a>
-                            <ul class="team__social">
-                                <li><a href="about.html#"><span><i class="fa-brands fa-facebook-f"></i></span></a></li>
-                                <li><a href="about.html#"><span><i class="fa-brands fa-twitter"></i></span></a></li>
-                                <li><a href="about.html#"><span><i class="fa-brands fa-instagram"></i></span></a></li>
-                                <li><a href="about.html#"><span><i class="fa-brands fa-linkedin"></i></span></a></li>
-                            </ul>
-                        </div>
-                        <div class="team__info">
-                            <a href="team-details.html">David John</a>
-                            <p>Project Engineer</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
-                    <div class="team__member wow wcfadeUp" data-wow-delay="0.3s">
-                        <div class="team__img">
-                            <a href="team-details.html"><img src="assets/imgs/team/1/member-2.jpg" alt="Team Member"></a>
-                            <ul class="team__social">
-                                <li><a href="about.html#"><span><i class="fa-brands fa-facebook-f"></i></span></a></li>
-                                <li><a href="about.html#"><span><i class="fa-brands fa-twitter"></i></span></a></li>
-                                <li><a href="about.html#"><span><i class="fa-brands fa-instagram"></i></span></a></li>
-                                <li><a href="about.html#"><span><i class="fa-brands fa-linkedin"></i></span></a></li>
-                            </ul>
-                        </div>
-                        <div class="team__info">
-                            <a href="team-details.html">July Monalisa</a>
-                            <p>Architect</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
-                    <div class="team__member wow wcfadeUp" data-wow-delay="0.45s">
-                        <div class="team__img">
-                            <a href="team-details.html"><img src="assets/imgs/team/1/member-3.jpg" alt="Team Member"></a>
-                            <ul class="team__social">
-                                <li><a href="about.html#"><span><i class="fa-brands fa-facebook-f"></i></span></a></li>
-                                <li><a href="about.html#"><span><i class="fa-brands fa-twitter"></i></span></a></li>
-                                <li><a href="about.html#"><span><i class="fa-brands fa-instagram"></i></span></a></li>
-                                <li><a href="about.html#"><span><i class="fa-brands fa-linkedin"></i></span></a></li>
-                            </ul>
-                        </div>
-                        <div class="team__info">
-                            <a href="team-details.html">Mark Harry</a>
-                            <p>Interior Designer</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
-                    <div class="team__member wow wcfadeUp" data-wow-delay="0.6s">
-                        <div class="team__img">
-                            <a href="team-details.html"><img src="assets/imgs/team/1/member-4.jpg" alt="Team Member"
-                                    class="br-right"></a>
-                            <ul class="team__social">
-                                <li><a href="about.html#"><span><i class="fa-brands fa-facebook-f"></i></span></a></li>
-                                <li><a href="about.html#"><span><i class="fa-brands fa-twitter"></i></span></a></li>
-                                <li><a href="about.html#"><span><i class="fa-brands fa-instagram"></i></span></a></li>
-                                <li><a href="about.html#"><span><i class="fa-brands fa-linkedin"></i></span></a></li>
-                            </ul>
-                        </div>
-                        <div class="team__info">
-                            <a href="team-details.html">Daniyel Bryan</a>
-                            <p>Interior Designer</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Team Area End -->
+   
 @endsection

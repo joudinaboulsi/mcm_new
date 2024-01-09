@@ -382,6 +382,22 @@ p {
   overflow: hidden;
   z-index: 1;
 }
+.wc-btn-brochure {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 15px;
+  text-align: center;
+  color: var(--white);
+  background-color: var(--secondary);
+  padding: 15px 2px;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
 .wc-btn-secondary span {
   position: absolute;
   width: 0px;
@@ -395,6 +411,11 @@ p {
   z-index: -1;
 }
 .wc-btn-secondary:hover {
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+.wc-btn-brochure:hover {
   background-color: var(--primary);
   color: var(--white);
 }
@@ -1269,7 +1290,8 @@ p {
 }
 .modal-dialog__hero {
   margin-top: 100px;
-  max-width: 900px;
+  /* max-width: 900px; */
+  max-width: max-content;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .modal-dialog__hero {
@@ -4717,7 +4739,7 @@ p {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
 }
-.case-study__info-2::after, .case-study__info-3::after {
+/* .case-study__info-2::after, .case-study__info-3::after {
   position: absolute;
   content: "\f060";
   font-family: "Font Awesome 6 Free";
@@ -4729,7 +4751,7 @@ p {
   color: var(--primary);
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-}
+} */
 .case-study__info-2 h4, .case-study__info-3 h4 {
   font-weight: 500;
   font-size: 16px;
@@ -11255,4 +11277,20 @@ body .demo__area::before {
 }
 .demo__img.demo6 {
     background-image: url("../imgs/preview/demo-5.jpg");
+}
+
+@media (min-width: 1116px)  {
+  .header__offcanvas{
+    display: none;
+  }
+}
+
+@media (max-width: 1115px)  {
+  .header__offcanvas{
+    display: block;
+  }
+}
+#header_menu nav ul .menu-li .active {
+color: #008d6a!important;
+
 }

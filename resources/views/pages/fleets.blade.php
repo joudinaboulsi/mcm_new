@@ -16,8 +16,8 @@
             <div class="row g-0">
                 <div class="col-xxl-3 col-xl-4 col-lg-3 col-md-4">
                     <div class="service__sidebar">
-                        <div class="widget__service wcfadeUp3">
-                            <h2 class="widget__title">more Projects</h2>
+                        {{-- <div class="widget__service wcfadeUp3">
+                            <h2 class="widget__title">OProjects</h2>
                             <ul>
                                 <li><a href="service-details.html">Architectural Design</a></li>
                                 <li><a href="service-details.html">Contruction</a></li>
@@ -26,7 +26,7 @@
                                 <li><a href="service-details.html">Power Managemnet</a></li>
                                 <li><a href="service-details.html">Power Managemnet</a></li>
                             </ul>
-                        </div>
+                        </div> --}}
 
                         <div class="widget__contact wow wcfadeUp" data-wow-delay="0.15s">
                             <p>Contact for inquery</p>
@@ -38,13 +38,13 @@
                         <div class="widget__download wow wcfadeUp" data-wow-delay="0.3s">
                             <h2 class="widget__title">download</h2>
                             <ul>
-                                <li><a href="service-details.html#">Brochure <span><i
+                                <li><a href="MCM_brochure.pdf">Brochure <span><i
                                                 class="flaticon-download"></i></span></a></li>
-                                <li><a href="service-details.html#">Document <span><i
+                                {{-- <li><a href="service-details.html#">Document <span><i
                                                 class="flaticon-download"></i></span></a></li>
                                 <li><a href="service-details.html#">Flyer <span><i class="flaticon-download"></i></span></a>
                                 </li>
-                            </ul>
+                            </ul> --}}
                         </div>
                     </div>
                 </div>

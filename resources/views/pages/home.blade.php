@@ -1,332 +1,300 @@
 @extends('frontend_layouts.master')
 @section('content')
-    <div class="home-4-wrapper">
-
-        <!-- Hero Area Start -->
-        <section class="hero__area-3">
-            <div class="container line"></div>
-            <span class="line-3"></span>
-            <span class="line-4"></span>
-            <span class="line-5"> </span>
-
-            <div class="swiper mySwiper2 hero__slider-3">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide hero__slide-3" style="background-image: url('slide.jpg');">
-                        <div class="container g-0">
-                            <div class="row">
-                                <div class="col-xxl-12">
-                                    <div class="hero__slide-left-3">
-                                        <span class="hero__sub-title-3">Mcm <br>Concrete</span>
-                                        <h1>We make your <br> dream</h1>
-                                        <p>Buildy is here to build your apartment architecture of the country development.
-                                        </p>
-                                        <a class="wc-btn-secondary btn-hover" href="service.html"><span></span> Explore
-                                            Service</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide hero__slide-3" style="background-image: url('slide2.jpg');">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-xxl-12">
-                                    <div class="hero__slide-left-3">
-                                        <span class="hero__sub-title-3">Mcm <br>Concrete</span>
-                                        <h1>We make your <br> dream</h1>
-                                        <p>Buildy is here to build your apartment architecture of the country development.
-                                        </p>
-                                        <a class="wc-btn-secondary btn-hover" href="service.html"><span></span> Explore
-                                            Service</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide hero__slide-3" style="background-image: url('slide3.jpg');">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-xxl-12">
-                                    <div class="hero__slide-left-3">
-                                        <span class="hero__sub-title-3">Mcm <br>Concrete<< /span>
-                                                <h1>We make your <br> dream</h1>
-                                                <p>Buildy is here to build your apartment architecture of the country
-                                                    development.</p>
-                                                <a class="wc-btn-secondary btn-hover" href="service.html"><span></span>
-                                                    Explore Service</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="hero__slider-pagination-3">
-                    <div class="swiper-pagination"></div>
-                </div>
-            </div>
-            <div class="swiper mySwiper hero__slider-3-thumbs">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide hero__slider-3-thumb">
-                        <p><span>01</span> Commercial <br> Building</p>
-                    </div>
-                    <div class="swiper-slide hero__slider-3-thumb">
-                        <p><span>02</span> Organization <br> Project</p>
-                    </div>
-                    <div class="swiper-slide hero__slider-3-thumb">
-                        <p><span>03</span> Construction <br>Brigrade</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Hero Area End -->
-
-
-        <!-- About Us Area Start -->
-        <section class="about__area-5">
-            <div class="container">
+   
+    <!-- Hero Area Start -->
+    <section class="hero__area">
+        <div class="swiper hero__slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide hero__slide" style="background-image: url('slide.jpg');">
+              <div class="container">
                 <div class="row">
-                    <div class="col-xxl-12">
-                        <div class="section-breadcrumb">
-                            <p> About</p>
-                        </div>
+                  <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-10">
+                    <div class="hero__slide-left">
+                      <h1>MCM  <span>CONCRETE</span></h1>
+                      <p>covers Mount Lebanon and Beirut
+                        areas.</p>
+                      <a class="wc-btn-primary btn-hover" href="{{route('fleets_path')}}"><span></span> Explore More</a>
                     </div>
-                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
-                        <div class="about__left">
-                            <h3 class="section-title wow wcfadeUp" data-wow-delay="0.3s">MCM Concrete <br> Who we are
-                            </h3>
-                            <div class="about__counter">
-                                <div class="about__content-5">
-                                    <h4 class="about__number wow wcfadeUp" data-wow-delay="0.9s">36</h4>
-                                    <h5 class="about__counter-title-4 wow wcfadeUp" data-wow-delay="1s">Years of <br>
-                                        experience</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
-                        <div class="about__right-5 zi-9 wow wcfadeUp" data-wow-delay="0.3">
-                            <p class="wow wcfadeUp" data-wow-delay="0.45s"> CM Concrete is managed in partnership with
-                                Engineer Joseph Zbeidy, who has 15 years experience in the ready mix concrete industry.
-
-                                We are supplying ready mix concrete for MCM Group Lebanon that is undertaking various
-                                construction projects in Beirut and North Lebanon (Las Salinas resort).
-
-                                We are commited to establishing long term, valuable business relationships by providing its
-                                customers with quality materials at competitve prices.
-
-                            </p>
-
-                            <img src="bb.png" alt="About Image" class="about__thumb">
-                        </div>
-                    </div>
+                  </div>
+                  <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-2">
+                   
+                  </div>
                 </div>
+              </div>
             </div>
-        </section>
-        <!-- About Us Area End -->
-
-        <!-- Project Area Start -->
-        <section class="project__area-4">
-            <div class="container">
+  
+            <div class="swiper-slide hero__slide" style="background-image: url('slide2.jpg');">
+              <div class="container">
                 <div class="row">
-                    <div class="col-xxl-12">
-                        <div class="section-breadcrumb">
-                            <p> Projects</p>
-                        </div>
-                        <div class="section-title-wrapper">
-                            <h2 class="wow wcfadeUp" data-wow-delay="0.3s">Our selected <br> project</h2>
-                            <p class="wow wcfadeUp" data-wow-delay="0.4s">World class infrastructure solutions to customers
-                                <strong>stakeholders across</strong> a broad industry start and end
-                                of creativity is inspiration.
-                            </p>
-                            <a class="view-btn" href="{{ route('projects_path') }}"> View all project <span><i
-                                        class="fa-sharp fa-solid fa-arrow-right"></i></span></a>
-                        </div>
+                  <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-10">
+                    <div class="hero__slide-left">
+                      <h1>MCM  <span>CONCRETE</span></h1>
+                      <p>provides its customers with the best quality
+                        materials</p>
+                      <a class="wc-btn-primary btn-hover" href="{{route('projects_path')}}"><span></span> Explore Projects</a>
                     </div>
+                  </div>
+                  <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-2">
+                   \
+                  </div>
                 </div>
+              </div>
             </div>
-
-            <div class="project__slider-inner">
-                <div class="swiper project__slider-4">
-                    <div class="cursor" id="project_cursor-4">drag</div>
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide project-slide-4">
-                            <div class="project-slide-inner wow wcfadeUp" data-wow-delay="0.3s">
-                                <a href="portfolio-details.html">
-                                    <img src="p.jpg" alt="Project Image">
-                                    <div class="project__info-4">
-                                        <h3>Tabaris 103</h3>
-
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="swiper-slide project-slide-4">
-                            <div class="project-slide-inner wow wcfadeUp" data-wow-delay="0.45s">
-                                <a href="portfolio-details.html">
-                                    <img src="p2.jpg" alt="Project Image">
-                                    <div class="project__info-4">
-                                        <h3>Tabaris 103</h3>
-
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="swiper-slide project-slide-4">
-                            <div class="project-slide-inner wow wcfadeUp" data-wow-delay="0.6s">
-                                <a href="portfolio-details.html">
-                                    <img src="p3.jpg" alt="Project Image">
-                                    <div class="project__info-4">
-                                        <h3>Autocad Mastery</h3>
-                                        <p>John, 02 / 03 / 2012</p>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
-            </div>
-
-
-        </section>
-        <!-- Project Area End -->
-
-
-        <!-- About Area Start -->
-        <section class="about__area-2 mt-5">
-
-            <div class="container line">
-                <span class="line-3"></span>
-                <span class="line-4"></span>
-                <span class="line-5"> </span>
+  
+            <div class="swiper-slide hero__slide" style="background-image: url('slide3.jpg');">
+              <div class="container">
                 <div class="row">
-                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
-                        <div class="about__left-2">
-                            <h2 class="section-sub-title-2 text-white wow wcfadeUp" data-wow-delay="0.15s">Our Fleets</h2>
-                            <h3 class="section-title text-white wow wcfadeUp" data-wow-delay="0.3s">Buildy is an award
-                                <br> winning
-                                construction <br>company</h3>
-                        </div>
+                  <div class="ol-xxl-7 col-xl-7 col-lg-7 col-md-10">
+                    <div class="hero__slide-left">
+                      <h1>MCM  <span>CONCRETE</span></h1>
+                      <p> strives to keep its prices at a competitive
+                        rate</p>
+                      <a class="wc-btn-primary btn-hover" href="{{route('about_path')}}"><span></span> Explore About Us </a>
                     </div>
-                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
-                        <div class="about__right-2">
-                            <div class="about__experience wow wcfadeUp" data-wow-delay="0.45s">
-                                <p>At MCM Concrete, both dispatch and quality
-                                    assurance use the most state-of-the-art
-                                    equipment and procedures to ensure
-                                    on-time delivery of the highest quality concrete.</h4>
-                            </div>
+                  </div>
+                  <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-2">
 
-                        </div>
-                    </div>
+                  </div>
                 </div>
+              </div>
             </div>
-        </section>
-        <!-- About Area End -->
-
-
-
-        <!-- CTA section start -->
-        <section class="cta__area-5">
-            <div class="container line-wrap">
-                <div class="line-col-4">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-
-                <div class="row">
-                    <div class="col-xxl-12">
-                        <div class="cta__content-5">
-                            <h2 class="cta__title-5 wow wcfadeUp" data-wow-delay="0.3s">Book Online<span>Now</span>
-                            </h2>
-                            <a href="{{ route('booking_path') }}" class="wc-btn-secondary btn-hover wow wcfadeUp"
-                                data-wow-delay="0.6s"><span></span>
-                                Know more <i class="fa-solid fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <img src="assets/imgs/home-5/shape-4.png" alt="Shape Image" class="shape">
-                <img src="assets/imgs/home-5/shape-4.png" alt="Shape Image" class="shape-2">
+          </div>
+  
+          <div class="hero__slider-pagination">
+            <div class="swiper-button-next"><span><img src="assets/imgs/icon/long-arrow-left.png" alt=""></span> Next
             </div>
-        </section>
-        <!-- CTA section end -->
-
-        <!-- Company Logo Area Start -->
-        <section class="company__area-4">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xxl-12">
-                        <div class="company__logos">
-                            <div class="company__logo wow wcfadeUp" data-wow-delay="0.15s">
-                                <img src="assets/imgs/company/1/1.png" alt="company Logo">
-                            </div>
-                            <div class="company__logo wow wcfadeUp" data-wow-delay="0.3s">
-                                <img src="assets/imgs/company/1/2.png" alt="company Logo">
-                            </div>
-                            <div class="company__logo wow wcfadeUp" data-wow-delay="0.45s">
-                                <img src="assets/imgs/company/1/3.png" alt="company Logo">
-                            </div>
-                            <div class="company__logo wow wcfadeUp" data-wow-delay="0.6s">
-                                <img src="assets/imgs/company/1/4.png" alt="company Logo">
-                            </div>
-                            <div class="company__logo wow wcfadeUp" data-wow-delay="0.75s">
-                                <img src="assets/imgs/company/1/5.png" alt="company Logo">
-                            </div>
-                            <div class="company__logo wow wcfadeUp" data-wow-delay="0.3s">
-                                <img src="assets/imgs/company/1/6.png" alt="company Logo">
-                            </div>
-                            <div class="company__logo wow wcfadeUp" data-wow-delay="0.45s">
-                                <img src="assets/imgs/company/1/7.png" alt="company Logo">
-                            </div>
-                            <div class="company__logo wow wcfadeUp" data-wow-delay="0.6s">
-                                <img src="assets/imgs/company/1/8.png" alt="company Logo">
-                            </div>
-                            <div class="company__logo wow wcfadeUp" data-wow-delay="0.75s">
-                                <img src="assets/imgs/company/1/9.png" alt="company Logo">
-                            </div>
-                            <div class="company__logo wow wcfadeUp" data-wow-delay="0.9s">
-                                <img src="assets/imgs/company/1/10.png" alt="company Logo">
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="swiper-button-prev">Prev <span><img src="assets/imgs/icon/long-arrow-right.png" alt=""></span>
             </div>
-        </section>
-        <!-- Company Logo Area End -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <!-- Hero Area End -->
+  
 
-        <!-- Gallry Area Start -->
-        <section class="gallery__area">
-            <div class="container line">
-                <span class="line-3"></span>
-                <span class="line-4"></span>
-                <span class="line-5"> </span>
-                <div class="row">
-                    <div class="col-xxl-12">
-                        <div class="gallery__top wow wcfadeUp" data-wow-delay="0.45s">
-                            <p>We’re on Instagram now <a href="#">Follow Us</a></p>
-                        </div>
-                    </div>
-                </div>
+  
+  
+      <!-- About Us Area Start -->
+      <section class="about__area">
+        <div class="container line">
+          <span class="line-3"></span>
+          <span class="line-4"></span>
+          <span class="line-5"> </span>
+          <div class="row">
+            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+              <div class="about__left zi-9 wow wcfadeUp" data-wow-delay="0.3">
+                <img src="about3.png" alt="About Image" class="about__thumb">
+              </div>
             </div>
+            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+              <div class="about__right">
+                <h2 class="section-sub-title wow wcfadeUp" data-wow-delay="0.15s">About Company</h2>
+                <h3 class="section-title wow wcfadeUp" data-wow-delay="0.3s">MCM Concrete s.a.r.l
+                  </h3>
+                <p class="wow wcfadeUp" data-wow-delay="0.45s">
+                  We are supplying ready mix concrete for MCM Group Lebanon that is undertaking various construction projects in Beirut and North Lebanon (Las Salinas resort).
 
-        </section>
-        <!-- Gallry Area End -->
-        <div class="footer__area">
-            <div class="footer__top-3">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xxl-12">
-                            <p>Have a project in your mind?</p>
-                            <a class="footer__btn" href="{{ route('contact_path') }}">Let’s talk</a>
-                        </div>
-                    </div>
-                </div>
+                  We are commited to establishing long term, valuable business relationships by providing its customers with quality materials at competitve prices.
+                  
+                  </p>
+                <a href="{{route('about_path')}}" class="wc-btn-secondary btn-hover wow wcfadeUp" data-wow-delay="0.6s"><span></span>
+                  Explore Us</a>
+  
+                {{-- <div class="about__counter">
+                  <div class="about__content">
+                    <h4 class="about__number wow wcfadeUp" data-wow-delay="0.75s">2k+</h4>
+                    <h5 class="about__counter-title wow wcfadeUp" data-wow-delay="0.85s">Projects completed</h5>
+                  </div>
+                  <div class="about__content">
+                    <h4 class="about__number wow wcfadeUp" data-wow-delay="0.9s">36</h4>
+                    <h5 class="about__counter-title wow wcfadeUp" data-wow-delay="1s">Years of experience</h5>
+                  </div>
+                </div> --}}
+              </div>
             </div>
+          </div>
+        </div>
+      </section>
+      <!-- About Us Area End -->
+  
+      <!-- Service Area Start -->
+      <section class="service__area">
+        <div class="container line">
+          <span class="line-3"></span>
+          <span class="line-4"></span>
+          <span class="line-5"> </span>
+          <div class="row">
+            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+              <div class="service__title">
+                <h2 class="section-sub-title wow wcfadeUp" data-wow-delay="0.15s">About Projects</h2>
+                <h3 class="section-title wow wcfadeUp" data-wow-delay="0.3s">Projects  <br>we have done</h3>
+              </div>
+            </div>
+            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+              <div class="blog__btn wow wcfadeUp" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: wcfadeUp;">
+                <a href="{{route('projects_path')}}">Browse All <i class="fa-solid fa-arrow-right-long"></i></a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="service__slider-wrapper">
+            <div class="swiper service__slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide service__slide wow wcfadeUp" data-wow-delay="0.6s">
+                  <a href="{{route('projects_path')}}">
+                    <div class="service__thumb-wrapper">
+                      <img class="service__thumb" src="p.jpg" alt="Service Image">
+                    </div>
+                    <div class="service__slide-title">
+                     
+                      <h4>Tabaris 103</h4>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide service__slide wow wcfadeUp" data-wow-delay="0.75s">
+                  <a href="{{route('projects_path')}}">
+                    <div class="service__thumb-wrapper">
+                      <img class="service__thumb" src="p2.jpg" alt="Service Image">
+                    </div>
+                    <div class="service__slide-title">
+                   
+                      <h4>Tabaris 103</h4>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide service__slide wow wcfadeUp" data-wow-delay="0.9s">
+                  <a href="{{route('projects_path')}}">
+                    <div class="service__thumb-wrapper">
+                      <img class="service__thumb" src="p3.jpg" alt="Service Image">
+                    </div>
+                    <div class="service__slide-title">
+                      
+                      <h4>Achrafieh 361</h4>
+                    </div>
+                  </a>
+                </div>
+               
+              </div>
+            </div>
+{{--   
+            <div class="service__btn-next"><span><i class="fa-solid fa-arrow-left"></i></span></div>
+            <div class="service__btn-prev"><span><i class="fa-solid fa-arrow-right"></i></span></div> --}}
+          </div>
+  
+        </div>
+      </section>
+      <!-- Service Area End -->
+  
+  
+    <!-- About Area Start -->
+    <section class="about__area-2">
+    
+
+      <div class="container line">
+        <span class="line-3"></span>
+        <span class="line-4"></span>
+        <span class="line-5"> </span>
+        <div class="row">
+          <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+            <div class="about__left-2">
+              <h2 class="section-sub-title-2 text-white wow wcfadeUp" data-wow-delay="0.15s">Our Fleets</h2>
+              <h3 class="section-title text-white wow wcfadeUp" data-wow-delay="0.3s">At MCM Concrete,</h3>
+            </div>
+          </div>
+          <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+            <div class="about__right-2">
+              <div class="about__experience wow wcfadeUp" data-wow-delay="0.45s">
+                <p> both dispatch and quality
+                  assurance use the most state-of-the-art
+                  equipment and procedures to ensure
+                  on-time delivery of the highest quality concrete.
+                  
+  
+                  
+                  </p>
+                
+               
+              </div>
+              <a href="{{route('fleets_path')}}" class="wc-btn-secondary btn-hover wow wcfadeUp" data-wow-delay="0.6s"><span></span>
+                Know more <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Area End -->
+  
+  
+      <!-- Testimonial Area Start -->
+      <section class="testimonial__area">
+        <div class="container g-0">
+          <div class="row g-0">
+            <div class="col-xxl-6 col-xl-6 col-lg-7 col-md-9">
+              <div class="testimonial__slider-wrapper wow wcfadeUp" data-wow-delay="0.15s">
+                <div class="swiper testimonial__slider">
+                  <div class="swiper-wrapper">
+                    <div class="testimonial__slide">
+                      <h2 class="section-title text-white wow wcfadeUp" data-wow-delay="0.3s">Join Our Team</span></h2>
+                      <a href="{{route('career_path')}}" class="wc-btn-secondary btn-hover wow wcfadeUp" data-wow-delay="0.6s"><span></span>
+                        Know more <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                   
+                  </div>
+                </div>
+  
+                {{-- <div class="testimonial__btn wow wcfadeUp" data-wow-delay="0.3s">
+                  <div class="swiper-btn-prev arrow-btn"><i class="fas fa-long-arrow-right"></i></div>
+                  <div class="swiper-btn-next arrow-btn"><i class="fas fa-long-arrow-left"></i></div>
+                </div> --}}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Testimonial Area End -->
+  
+
+  
+  
+  
+
+    <!-- E-booking section start -->
+    <section class="cta__area-5">
+      <div class="container line-wrap">
+        <div class="line-col-4">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
         </div>
 
-    </div>
+        <div class="row">
+          <div class="col-xxl-12">
+            <div class="cta__content-5">
+              <h2 class="cta__title-5 wow wcfadeUp" data-wow-delay="0.3s">Book  <span>Now</span>
+              </h2>
+              <a href="{{route('booking_path')}}" class="wc-btn-secondary btn-hover wow wcfadeUp" data-wow-delay="0.6s"><span></span>
+                Know more <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <img src="assets/imgs/home-5/shape-4.png" alt="Shape Image" class="shape">
+        <img src="assets/imgs/home-5/shape-4.png" alt="Shape Image" class="shape-2">
+      </div>
+    </section>
+    <!-- E-booking section end -->
+
+      <!-- Blog Area End -->
+      <div class="footer__area">
+        <div class="footer__top-3">
+          <div class="container">
+            <div class="row">
+              <div class="col-xxl-12">
+                <p>Get in Touch</p>
+                <a class="footer__btn" href="{{route('contact_path')}}">Let’s talk</a>
+              </div>
+            </div>
+          </div>
+        </div>
 @endsection
