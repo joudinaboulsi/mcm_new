@@ -18,21 +18,11 @@ class PagesController extends Controller
     public function about(){
         return view('pages.about');
     }
-
-    
-    
     
     // Projects Page
     public function projects(){
         return view('pages.projects');
     }
-
-
-    // Project Detail Page
-      public function projectDetails(){
-        return view('pages.project_detail');
-    }
-
 
 
     // Our Fleets Page
@@ -48,7 +38,7 @@ class PagesController extends Controller
 
     public function sendCareer(Request $request)
     {
-     //    dd($request);
+  
         $name = $request->input('name');
         $email_client = $request->input('email');
         $phone = $request->input('phone');
@@ -76,7 +66,7 @@ class PagesController extends Controller
     // sent eboooking
     public function sendBooking(Request $request)
    {
-    //    dd($request);
+ 
        $customer = $request->input('customer');
        $email_client = $request->input('email');
        $phone = $request->input('phone');
@@ -108,8 +98,6 @@ class PagesController extends Controller
 
    public function sendContactForm(Request $request)
    {
-  
-
        $lastname = $request->input('last_name');
        $firstname = $request->input('first_name');
        $email_client = $request->input('email');

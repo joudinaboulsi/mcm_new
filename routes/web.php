@@ -18,7 +18,6 @@
 Route::get('/','PagesController@home')->name('home_path');
 Route::get('/about','PagesController@about')->name('about_path');
 Route::get('/projects','PagesController@projects')->name('projects_path');
-Route::get('/project-details','PagesController@projectDetails')->name('project_details_path');
 Route::get('/our-fleets','PagesController@fleets')->name('fleets_path');
 Route::get('/careers','PagesController@career')->name('career_path');
 Route::post('/career-sent','PagesController@sendCareer')->name('career_sent_path');
