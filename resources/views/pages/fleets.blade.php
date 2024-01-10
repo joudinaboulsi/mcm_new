@@ -50,7 +50,7 @@
                 </div>
                 <div class="col-xxl-9 col-xl-8 col-lg-9 col-md-8">
                     <div class="service__detail-content wcfadeUp4">
-                        <img src="f.jpg" alt="Service Thumbnail" class="service__detail-thumb">
+                        <img src="fleet.jpg" alt="Service Thumbnail" class="service__detail-thumb">
                         <h2 class="service__detail-title">Our Fleets</h2>
 
                         <ul class="feature__list">
@@ -65,8 +65,8 @@
                         </ul>
 
                         <div class="thumb-col-2">
-                            <img src="f2.jpg" alt="Service Thumbnail">
-                            <img src="f3.jpg" alt="Service Thumbnail">
+                            <img src="assets/imgs/feature/2/3.jpg" alt="Service Thumbnail">
+                            <img src="assets/imgs/feature/2/3.jpg" alt="Service Thumbnail">
                         </div>
 
                         <p>

@@ -51,10 +51,10 @@
               </div>
 
               <div class="footer__subscribe">
-                <form action="#">
+                {{-- <form action="#">
                   <input type="text" placeholder="Enter your email">
                   <button type="submit" class="submit"><i class="fa-solid fa-paper-plane"></i></button>
-                </form>
+                </form> --}}
               </div>
 
               <div class="footer__social">

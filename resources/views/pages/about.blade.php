@@ -43,13 +43,13 @@
                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                     <div class="about__left-4 zi-9">
                         <div class="about__left-4-img">
-                            <img class="about__img4-1" src="about.png" alt="About Image">
-                            <img class="about__img4-2" src="about2.png" alt="About Image">
+                          <img class="about__img4-1" src="assets/imgs/about/4/1.jpg" alt="About Image">
+                          <img class="about__img4-2" src="assets/imgs/about/4/3.jpg" alt="About Image">
                         </div>
                         <div class="about__left-4-img-2">
-                            <img class="about__img4-3" src="about3.png" alt="About Image">
+                          <img class="about__img4-3" src="assets/imgs/about/4/2.jpg" alt="About Image">
                         </div>
-                    </div>
+                      </div>
                 </div>
             </div>
         </div>
@@ -77,12 +77,12 @@
             <div class="row">
                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                     <div class="feature__left wow wcfadeUp" data-wow-delay="0.3s">
-                        <img class="feature__img-1" src="bb1.png" alt="feature Image">
-                        <img class="feature__img-2" src="pic_abt_us_4.png" alt="feature Image">
-                        <img class="feature__img-3" src="pic_abt_us_4.png" alt="feature Image">
-
+                      <img class="feature__img-1" src="assets/imgs/feature/2/1.jpg" alt="feature Image">
+                      <img class="feature__img-2" src="assets/imgs/feature/2/2.jpg" alt="feature Image">
+                      <img class="feature__img-3" src="assets/imgs/feature/2/3.jpg" alt="feature Image">
+                    
                     </div>
-                </div>
+                  </div>
                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                     <div class="feature__right">
                         <div class="feature__title-wrapper-2">
@@ -123,7 +123,7 @@
     <!-- Feature Area End -->
 
     <!-- About Area Start -->
-    <section class="about__area-3">
+    <section class="about__area-3 feature__area">
         <div class="container line">
             <span class="line-3"></span>
             <span class="line-4"></span>
@@ -131,10 +131,13 @@
             <div class="row g-0">
                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                     <div class="feature__left wow wcfadeUp" data-wow-delay="0.3s">
-                        <img class="feature__img-1" src="bb1.png" alt="feature Image">
-                        <img class="feature__img-2" src="pic_abt_us_4.png" alt="feature Image">
-                        <img class="feature__img-3" src="pic_abt_us_4.png" alt="feature Image">
+                        <img class="feature__img-3" src="assets/imgs/feature/2/3.jpg" alt="feature Image">
+                    
+                    </div>
 
+                    <div class="feature__left wow wcfadeUp mt-4" data-wow-delay="0.3s">
+                        <img class="feature__img-3" src="assets/imgs/feature/2/3.jpg" alt="feature Image">
+                    
                     </div>
                 </div>
                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
@@ -151,9 +154,11 @@
                             about positive changes
                             in our entire industry.</p>
                     </div>
-                </div>
-            </div>
 
+                </div>
+           
+            </div>
+          
         </div>
     </section>
 

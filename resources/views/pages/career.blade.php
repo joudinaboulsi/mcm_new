@@ -38,7 +38,7 @@
                                 </div>
 
                                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 mb-3">
-                                    <select name="sex" class="form-control">
+                                    <select name="gender" class="form-control">
                                         <option selected> Select Gender</option>
                                         <option value="Male">Male</option>
                                         <option value="Female">Female</option>

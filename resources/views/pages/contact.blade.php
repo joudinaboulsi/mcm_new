@@ -30,12 +30,12 @@
                                 @csrf
                                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12">
                                     <!-- <label for="name">Name</label> -->
-                                    <input type="text" id="last_name" name="last_name" placeholder="Last Name">
+                                    <input type="text" id="last_name" name="lastname" placeholder="Last Name">
                                 </div>
 
                                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12">
                                     <!-- <label for="name">Name</label> -->
-                                    <input type="text" id="first_name" name="first_name" placeholder="First Name">
+                                    <input type="text" id="first_name" name="firstname" placeholder="First Name">
                                 </div>
                                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12">
                                     <!-- <label for="email">Email</label> -->
@@ -47,7 +47,7 @@
                                 </div>
                           
                                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 mb-3">
-                                    <select name="sex" class="form-control">
+                                    <select name="gender" class="form-control">
                                         <option selected> Select Gender</option>
                                         <option value="male">Male</option>
                                         <option value="female">Female</option>

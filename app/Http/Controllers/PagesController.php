@@ -40,17 +40,17 @@ class PagesController extends Controller
     {
   
         $name = $request->input('name');
-        $email_client = $request->input('email');
+        $email= $request->input('email');
         $phone = $request->input('phone');
-        $gender = $request ->input('sex');
-        $msg_client =$request ->input('message');
+        $gender = $request->input('gender');
+        $msg_client =$request->input('message');
  
         // if form is full
         if (! empty($_POST))
         {
-            Mail::send('emails.career', array('name' => $name,'email'=>$email_client,'phone'=>$phone,'sex'=>$gender, 'message'=>$msg_client ), function($message) use ($email_client, $name)
+            Mail::send('emails.career', array('name' => $name,'email'=>$email,'phone'=>$phone,'gender'=>$gender, 'msg_client'=>$msg_client ), function($message) use ($email, $name)
             {
-                $message->from($email_client, $name);
+                $message->from($email, $name);
                 $message->to('joudi@webneoo.com')->subject('Message from Website');
             });
             \Session::flash('msg', 'Successfully sent!' );
@@ -68,24 +68,24 @@ class PagesController extends Controller
    {
  
        $customer = $request->input('customer');
-       $email_client = $request->input('email');
+       $email= $request->input('email');
        $phone = $request->input('phone');
        $address = $request->input('address');
        $qty = $request->input('qty');
        $structure = $request->input('structure');
        $order_by = $request->input('order_by');
-       $gender = $request ->input('sex');
-       $msg_client =$request ->input('message');
+       $gender = $request->input('gender');
+       $msg_client =$request->input('message');
 
        // if form is full
        if (! empty($_POST))
        {
-           Mail::send('emails.booking', array('customer' => $customer,'address'=>$address,'email'=>$email_client,'phone'=>$phone,'sex'=>$gender,
-            'qty'=>$qty, 'structure'=>$structure, 'order_by'=>$order_by, 'message'=>$msg_client ), function($message) use ($email_client, $customer)
-           {
-               $message->from($email_client, $customer);
-               $message->to('joudi@webneoo.com')->subject('Message from Website');
-           });
+           Mail::send('emails.booking', array('customer' => $customer,'address'=>$address,'email'=>$email,'phone'=>$phone,'gender'=>$gender,
+            'qty'=>$qty, 'structure'=>$structure, 'order_by'=>$order_by, 'msg_client' => $msg_client ), function($message) use ($email, $customer)
+                {
+                    $message->from($email, $customer);
+                    $message->to('joudi@webneoo.com')->subject('Message from Website');
+                });
            \Session::flash('msg', 'Successfully sent!' );
            return redirect()->back();
        }
@@ -98,24 +98,24 @@ class PagesController extends Controller
 
    public function sendContactForm(Request $request)
    {
-       $lastname = $request->input('last_name');
-       $firstname = $request->input('first_name');
-       $email_client = $request->input('email');
+       $lastname = $request->input('lastname');
+       $firstname = $request->input('firstname');
+       $email = $request->input('email');
        $phone = $request->input('phone');
-       $gender = $request ->input('sex');
+       $gender = $request ->input('gender');
+       $subject =$request ->input('subject');
        $msg_client =$request ->input('message');
 
        // if form is full
        if (! empty($_POST))
        {
-           Mail::send('emails.contact', array('last_name' => $lastname,'first_name'=>$firstname,'email'=>$email_client,'phone'=>$phone,'sex'=>$gender,
-           'message'=>$msg_client ), function($message) use ($email_client, $firstname)
-           {
-               $message->from($email_client, $firstname);
-               $message->to('joudi@webneoo.com')->subject('Message from Website');
-           });
-           \Session::flash('msg', 'Successfully sent!' );
-           return redirect()->back();
+            Mail::send('emails.contact', array('lastname' => $lastname,'firstname'=>$firstname, 'email' => $email, 'phone' => $phone, 'gender' => $gender, 'subject' => $subject, 'msg_client' => $msg_client), function($message) use ($email, $lastname)
+            {
+                $message->from($email, $lastname);
+                $message->to('joudi@webneoo.com')->subject('Message from Website');
+            });
+            \Session::flash('msg', 'Successfully sent!' );
+            return redirect()->back();
        }
    }
 }

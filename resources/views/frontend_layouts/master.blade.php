@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="assets/css/progressbar.css">
   <link rel="stylesheet" href="assets/css/animate.min.css">
   <link rel="stylesheet" href="assets/css/meanmenu.min.css">
-  <link rel="stylesheet" href="assets/css/master.css">
+  <link rel="stylesheet" href="{{URL::asset('assets/css/master.css')}}">
   <link rel="stylesheet" href="style.css">
 </head>
 

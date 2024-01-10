@@ -5,7 +5,7 @@
     <section class="hero__area">
         <div class="swiper hero__slider">
           <div class="swiper-wrapper">
-            <div class="swiper-slide hero__slide" style="background-image: url('slide.jpg');">
+            <div class="swiper-slide hero__slide" style="background-image: url('assets/imgs/slider/hero/1.jpg');">
               <div class="container">
                 <div class="row">
                   <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-10">
@@ -23,7 +23,7 @@
               </div>
             </div>
   
-            <div class="swiper-slide hero__slide" style="background-image: url('slide2.jpg');">
+            <div class="swiper-slide hero__slide" style="background-image: url('assets/imgs/slider/hero/2.jpg');">
               <div class="container">
                 <div class="row">
                   <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-10">
@@ -41,7 +41,7 @@
               </div>
             </div>
   
-            <div class="swiper-slide hero__slide" style="background-image: url('slide3.jpg');">
+            <div class="swiper-slide hero__slide" style="background-image:url('assets/imgs/slider/hero/3.jpg');">
               <div class="container">
                 <div class="row">
                   <div class="ol-xxl-7 col-xl-7 col-lg-7 col-md-10">
@@ -83,7 +83,7 @@
           <div class="row">
             <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
               <div class="about__left zi-9 wow wcfadeUp" data-wow-delay="0.3">
-                <img src="about3.png" alt="About Image" class="about__thumb">
+                <img src="assets/imgs/about/1/1.png" alt="About Image" class="about__thumb">
               </div>
             </div>
             <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">

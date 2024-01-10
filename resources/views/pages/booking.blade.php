@@ -32,14 +32,14 @@
                                 </div>
                                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12">
                                     <!-- <label for="phone">Phone (Optional)</label> -->
-                                    <input type="text" id="phone" name="phone" placeholder="Pphone">
+                                    <input type="text" id="phone" name="phone" placeholder="Phone">
                                 </div>
                                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12">
                                     <!-- <label for="phone">Phone (Optional)</label> -->
                                     <input type="text" name="address" placeholder="Address">
                                 </div>
                                 <div class="col-xxl-12 mb-3">
-                                    <select name="sex" class="form-control">
+                                    <select name="gender" class="form-control">
                                         <option selected> Select Gender</option>
                                         <option value="Male">Male</option>
                                         <option value="Female">Female</option>
