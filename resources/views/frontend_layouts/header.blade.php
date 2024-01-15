@@ -18,7 +18,7 @@
             <div class="col-xxl-6 col-xl-5 col-lg-5 col-md-6">
               <div class="header__info-right">
                 <ul class="header__links">
-                  <li class="{{ request()->routeIs('career_path') ? 'active' : ''}}"><a href="{{route('career_path')}}">Careers</a></li>
+                
                   <li><a href="MCM_brochure.pdf">Brochure <span><i class="flaticon-download"></i></span></a></li>
                 </ul>
                 <ul class="header__social">
@@ -51,7 +51,7 @@
                   <li class="{{ request()->routeIs('about_path') ? 'active' : ''}}"><a href="{{route('about_path')}}">About</a></li>
                   <li class="{{ request()->routeIs('projects_path') ? 'active' : ''}}"><a href="{{route('projects_path')}}">Projects</a></li>
                   <li class="{{ request()->routeIs('fleets_path') ? 'active' : ''}}"><a href="{{route('fleets_path')}}">Our Fleets</a></li>
-                  <li class="{{ request()->routeIs('booking_path') ? 'active' : ''}}"><a href="{{route('booking_path')}}">E-Booking</a></li>
+                  <li class="{{ request()->routeIs('career_path') ? 'active' : ''}}"><a href="{{route('career_path')}}">Careers</a></li>
                   <li class="{{ request()->routeIs('contact_path') ? 'active' : ''}}"><a href="{{route('contact_path')}}">Contact</a></li>
                 </ul>
               </nav>
@@ -92,7 +92,7 @@
                   <li class="{{ request()->routeIs('projects_path') ? 'active' : ''}}"><a href="{{route('projects_path')}}">Projects</a></li>
                   <li class="{{ request()->routeIs('fleets_path') ? 'active' : ''}}"><a href="{{route('fleets_path')}}">Our Fleets</a></li>
                   <li class="{{ request()->routeIs('career_path') ? 'active' : ''}}"><a href="{{route('career_path')}}">Careers</a></li>
-                  <li class="{{ request()->routeIs('booking_path') ? 'active' : ''}}"><a href="{{route('booking_path')}}">E-Booking</a></li>
+                  
                   <li class="{{ request()->routeIs('contact_path') ? 'active' : ''}}"><a href="{{route('contact_path')}}">Contact</a></li>
               <li>
                 <a href="MCM_brochure.pdf">Brochure  <span><i class="flaticon-download"></i></span></a>

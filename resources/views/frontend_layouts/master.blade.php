@@ -4,14 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="BUILDY HTML5 Template" />
+  {!! SEO::generate() !!}
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1">
 
-  <title>Mcm - Concrete</title>
-
-  <!-- Fav Icon -->
-  <link rel="icon" type="image/x-icon" href="assets/imgs/icon/logo-3.png">
-
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
   <!-- All CSS files -->
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/all.min.css">
@@ -22,11 +19,33 @@
   <link rel="stylesheet" href="assets/css/meanmenu.min.css">
   <link rel="stylesheet" href="{{URL::asset('assets/css/master.css')}}">
   <link rel="stylesheet" href="style.css">
+ 
+ 
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
 </head>
 
 
 <body>
+  @if(Session::has('msg'))
 
+  <div class="modal fade" id="myModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog__hero">
+      <div class="modal-content modal-content__hero" style="height: 100px!important">
+        <button type="button" class="close-modal" data-bs-dismiss="modal" aria-label="Close"><i
+            class="fa-solid fa-xmark"></i></button>
+            <div class="row p-4" style="width:500px;">
+              <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 mb-3">
+                <p class="wow wcfadeUp" data-wow-delay="0.15s">{{ session('msg') }}</p>
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  @endif
   <!-- Loading... Start -->
   <div class="preloader">
     <div class="loading">
@@ -45,25 +64,13 @@
 
    @include('frontend_layouts.header')
 
+
+   
   <!-- Cursor Animation -->
   <div class="cursor1"></div>
   <div class="cursor2"></div>
-  @if(Session::has('msg'))
-  <div class="popup modal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="commentLabel" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
-          <div class="modal-content">
-              <div class="modal-body">
-                  <button type="button" class="close close-btn-contact" data-bs-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                  </button>
-                  <div class="row p-4">
-                      <p class="text-3 mb-0">{{ session('msg') }}</p>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
-  @endif
+
+
 
   <main>
 
@@ -75,6 +82,13 @@
 
    <!-- f00ter --> 
    @include('frontend_layouts.footer')
+   <script>
+    $("#contact-form").validate();
+    $("#career-form").validate();
+    $(window).on('load', function() {
+        $('#myModal').modal('show');
+    });
+</script>
 
   <!-- All JS files -->
   <script src="assets/js/jquery-3.6.0.min.js"></script>
@@ -91,6 +105,7 @@
   <script src="assets/js/debug.addIndicators.min.js"></script>
   <script src="assets/js/jquery.meanmenu.min.js"></script>
   <script src="assets/js/scripts.js"></script>
+
 
 </body>
 

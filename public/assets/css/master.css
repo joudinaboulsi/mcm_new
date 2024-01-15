@@ -3101,7 +3101,7 @@ p {
   max-width: 500px;
   padding-bottom: 35px;
   font-size: 18px;
-  color: var(--secondary);
+  color: var(--white);
   opacity: 0;
 }
 .hero__slide-left a {
@@ -3384,7 +3384,7 @@ p {
 /* 16. ABOUT US CSS START
 /*----------------------------------------*/
 .about__area {
-  background-image: url("../imgs/about/bg-1.png");
+  /* background-image: url("../imgs/about/bg-1.png"); */
   background-position: right bottom;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -5057,7 +5057,7 @@ p {
 /*----------------------------------------*/
 .testimonial__area {
   padding-top: 390px;
-  background-image: url("../imgs/testimonial/1/bg-1.jpg");
+  background-image: url("/abouts/bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -7645,7 +7645,7 @@ p {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-  color: var(--black);
+  color: red;
   padding-bottom: 10px;
 }
 .contact__form input, .comment__form input {

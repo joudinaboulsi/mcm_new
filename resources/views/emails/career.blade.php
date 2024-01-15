@@ -1,3 +1,4 @@
+<h1>Career request from website</h1>
 <p>Name: </b> {{ $name }}</p>    
 <p>Email : </b> {{ $email}}</p>
 <p>Phone : </b> {{ $phone }}</p>

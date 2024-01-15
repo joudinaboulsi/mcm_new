@@ -26,29 +26,29 @@
                         <p>Fill the below form (all the fields are mandatory)
                         </p>
                         <div class="contact__form wow wcfadeUp" data-wow-delay="0.75s">
-                            <form action="{{route('contact_sent_path')}}"  method="POST" class="row">
+                            <form action="{{route('contact_sent_path')}}"  method="POST" class="row" id="contact-form">
                                 @csrf
                                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12">
                                     <!-- <label for="name">Name</label> -->
-                                    <input type="text" id="last_name" name="lastname" placeholder="Last Name">
+                                    <input type="text" id="last_name" name="lastname" placeholder="Last Name" required>
                                 </div>
 
                                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12">
                                     <!-- <label for="name">Name</label> -->
-                                    <input type="text" id="first_name" name="firstname" placeholder="First Name">
+                                    <input type="text" id="first_name" name="firstname" placeholder="First Name" required>
                                 </div>
                                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12">
                                     <!-- <label for="email">Email</label> -->
-                                    <input type="email" id="email" name="email" placeholder="E-mail">
+                                    <input type="email" id="email" name="email" placeholder="E-mail" required>
                                 </div>
                                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12">
                                     <!-- <label for="phone">Phone (Optional)</label> -->
-                                    <input type="tel" id="phone" name="phone" placeholder="Phone Number">
+                                    <input type="text" id="phone" name="phone" placeholder="Phone Number" required>
                                 </div>
                           
                                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 mb-3">
-                                    <select name="gender" class="form-control">
-                                        <option selected> Select Gender</option>
+                                    <select name="gender" class="form-control" required>
+                                        <option> Select Gender</option>
                                         <option value="male">Male</option>
                                         <option value="female">Female</option>
 
@@ -56,11 +56,11 @@
                                 </div>
                                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12">
                                     <!-- <label for="subject">Subject</label> -->
-                                    <input type="text" id="subject" name="subject" placeholder="Your subject">
+                                    <input type="text" id="subject" name="subject" placeholder="Your subject" required>
                                 </div>
                                 <div class="col-xxl-12">
                                     <!-- <label for="message">Message</label> -->
-                                    <textarea name="message" id="message" placeholder="Type your message..."></textarea>
+                                    <textarea name="message" id="message" placeholder="Type your message..." required></textarea>
                                 </div>
                                 <div class="col-xxl-12">
                                     <button class="submit wc-btn-primary btn-hover" type="submit"><span></span> Send

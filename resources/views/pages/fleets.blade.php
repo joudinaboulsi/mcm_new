@@ -65,15 +65,15 @@
                         </ul>
 
                         <div class="thumb-col-2">
-                            <img src="assets/imgs/feature/2/3.jpg" alt="Service Thumbnail">
-                            <img src="assets/imgs/feature/2/3.jpg" alt="Service Thumbnail">
+                            <img src="abouts/f2.jpg" alt="Service Thumbnail">
+                            <img src="abouts/f3.jpg" alt="Service Thumbnail">
                         </div>
 
                         <p>
                             At MCM Concrete, both dispatch and quality
                             assurance use the most state-of-the-art
                             equipment and procedures to ensure
-                            on-time delivery of the highest quality concrete
+                            on-time delivery of the highest quality concrete.
                         </p>
 
                     </div>
@@ -83,14 +83,29 @@
                             <div class="swiper testimonial__slider-2">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide testimonial__slide-2">
-                                        <img src="b1.jpg" alt="feature Image">
+                                        <img src="abouts/ton-scale.jpg" alt="feature Image">
                                     </div>
                                     <div class="swiper-slide testimonial__slide-2">
-                                        <img src="b2.jpg" alt="feature Image">
+                                        <img src="abouts/truck-mixers.jpg" alt="feature Image">
 
                                     </div>
                                     <div class="swiper-slide testimonial__slide-2">
-                                        <img src="b3.jpg" alt="feature Image">
+                                        <img src="abouts/generators.jpg" alt="feature Image">
+                                    </div>
+                                    
+                                    <div class="swiper-slide testimonial__slide-2">
+                                        <img src="abouts/cement-silos.jpg" alt="feature Image">
+
+                                    </div>
+
+                                    <div class="swiper-slide testimonial__slide-2">
+                                        <img src="abouts/loaders.jpg" alt="feature Image">
+
+                                    </div>
+
+                                    <div class="swiper-slide testimonial__slide-2">
+                                        <img src="abouts/pumps.jpg" alt="feature Image">
+
                                     </div>
                                 </div>
 

@@ -34,4 +34,8 @@ return [
         'secret' => env('SPARKPOST_SECRET'),
     ],
 
+    'mandrill' => [
+        'secret' => env('MANDRILL_SECRET'),
+    ],
+
 ];

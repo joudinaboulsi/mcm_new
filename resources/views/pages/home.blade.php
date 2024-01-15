@@ -5,14 +5,14 @@
     <section class="hero__area">
         <div class="swiper hero__slider">
           <div class="swiper-wrapper">
-            <div class="swiper-slide hero__slide" style="background-image: url('assets/imgs/slider/hero/1.jpg');">
+            <div class="swiper-slide hero__slide" style="background-image: url('slider/slider.jpg');">
               <div class="container">
                 <div class="row">
                   <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-10">
                     <div class="hero__slide-left">
                       <h1>MCM  <span>CONCRETE</span></h1>
-                      <p>covers Mount Lebanon and Beirut
-                        areas.</p>
+                      <p>
+                        places great emphasis on quality.</p>
                       <a class="wc-btn-primary btn-hover" href="{{route('fleets_path')}}"><span></span> Explore More</a>
                     </div>
                   </div>
@@ -23,14 +23,14 @@
               </div>
             </div>
   
-            <div class="swiper-slide hero__slide" style="background-image: url('assets/imgs/slider/hero/2.jpg');">
+            <div class="swiper-slide hero__slide" style="background-image: url('slider/slider2.jpg');">
               <div class="container">
                 <div class="row">
                   <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-10">
                     <div class="hero__slide-left">
                       <h1>MCM  <span>CONCRETE</span></h1>
-                      <p>provides its customers with the best quality
-                        materials</p>
+                      <p>
+                      has a long history in building construction</p>
                       <a class="wc-btn-primary btn-hover" href="{{route('projects_path')}}"><span></span> Explore Projects</a>
                     </div>
                   </div>
@@ -41,7 +41,7 @@
               </div>
             </div>
   
-            <div class="swiper-slide hero__slide" style="background-image:url('assets/imgs/slider/hero/3.jpg');">
+            <div class="swiper-slide hero__slide" style="background-image:url('slider/slider3.jpg');">
               <div class="container">
                 <div class="row">
                   <div class="ol-xxl-7 col-xl-7 col-lg-7 col-md-10">
@@ -49,6 +49,74 @@
                       <h1>MCM  <span>CONCRETE</span></h1>
                       <p> strives to keep its prices at a competitive
                         rate</p>
+                      <a class="wc-btn-primary btn-hover" href="{{route('about_path')}}"><span></span> Explore About Us </a>
+                    </div>
+                  </div>
+                  <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-2">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide hero__slide" style="background-image:url('slider/slider4.jpg');">
+              <div class="container">
+                <div class="row">
+                  <div class="ol-xxl-7 col-xl-7 col-lg-7 col-md-10">
+                    <div class="hero__slide-left">
+                      <h1>MCM  <span>CONCRETE</span></h1>
+                      <p>provides its customers with the best quality
+                        materials</p>
+                      <a class="wc-btn-primary btn-hover" href="{{route('about_path')}}"><span></span> Explore About Us </a>
+                    </div>
+                  </div>
+                  <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-2">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide hero__slide" style="background-image:url('slider/slider5.jpg');">
+              <div class="container">
+                <div class="row">
+                  <div class="ol-xxl-7 col-xl-7 col-lg-7 col-md-10">
+                    <div class="hero__slide-left">
+                      <h1>MCM  <span>CONCRETE</span></h1>
+                      <p> strives to keep its prices at a competitive
+                        rate</p>
+                      <a class="wc-btn-primary btn-hover" href="{{route('about_path')}}"><span></span> Explore About Us </a>
+                    </div>
+                  </div>
+                  <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-2">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide hero__slide" style="background-image:url('slider/slider6.jpg');">
+              <div class="container">
+                <div class="row">
+                  <div class="ol-xxl-7 col-xl-7 col-lg-7 col-md-10">
+                    <div class="hero__slide-left">
+                      <h1>MCM  <span>CONCRETE</span></h1>
+                      <p>is owned & managed by Engineers.</p>
+                      <a class="wc-btn-primary btn-hover" href="{{route('about_path')}}"><span></span> Explore About Us </a>
+                    </div>
+                  </div>
+                  <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-2">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide hero__slide" style="background-image:url('slider/slider7.jpg');">
+              <div class="container">
+                <div class="row">
+                  <div class="ol-xxl-7 col-xl-7 col-lg-7 col-md-10">
+                    <div class="hero__slide-left">
+                      <h1>MCM  <span>CONCRETE</span></h1>
+                      <p>
+                        s.a.r.l. is located in Nahr el Mot.</p>
                       <a class="wc-btn-primary btn-hover" href="{{route('about_path')}}"><span></span> Explore About Us </a>
                     </div>
                   </div>
@@ -83,7 +151,7 @@
           <div class="row">
             <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
               <div class="about__left zi-9 wow wcfadeUp" data-wow-delay="0.3">
-                <img src="assets/imgs/about/1/1.png" alt="About Image" class="about__thumb">
+                <img src="abouts/about.png" alt="About Image" class="about__thumb">
               </div>
             </div>
             <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
@@ -143,7 +211,7 @@
                 <div class="swiper-slide service__slide wow wcfadeUp" data-wow-delay="0.6s">
                   <a href="{{route('projects_path')}}">
                     <div class="service__thumb-wrapper">
-                      <img class="service__thumb" src="p.jpg" alt="Service Image">
+                      <img class="service__thumb" src="products/p.jpg" alt="Service Image">
                     </div>
                     <div class="service__slide-title">
                      
@@ -154,7 +222,7 @@
                 <div class="swiper-slide service__slide wow wcfadeUp" data-wow-delay="0.75s">
                   <a href="{{route('projects_path')}}">
                     <div class="service__thumb-wrapper">
-                      <img class="service__thumb" src="p2.jpg" alt="Service Image">
+                      <img class="service__thumb" src="products/p2.jpg" alt="Service Image">
                     </div>
                     <div class="service__slide-title">
                    
@@ -165,7 +233,7 @@
                 <div class="swiper-slide service__slide wow wcfadeUp" data-wow-delay="0.9s">
                   <a href="{{route('projects_path')}}">
                     <div class="service__thumb-wrapper">
-                      <img class="service__thumb" src="p3.jpg" alt="Service Image">
+                      <img class="service__thumb" src="products/p3.jpg" alt="Service Image">
                     </div>
                     <div class="service__slide-title">
                       
@@ -176,10 +244,7 @@
                
               </div>
             </div>
-{{--   
-            <div class="service__btn-next"><span><i class="fa-solid fa-arrow-left"></i></span></div>
-            <div class="service__btn-prev"><span><i class="fa-solid fa-arrow-right"></i></span></div> --}}
-          </div>
+
   
         </div>
       </section>
@@ -226,7 +291,7 @@
   
   
       <!-- Testimonial Area Start -->
-      <section class="testimonial__area">
+       <!--   <section class="testimonial__area">
         <div class="container g-0">
           <div class="row g-0">
             <div class="col-xxl-6 col-xl-6 col-lg-7 col-md-9">
@@ -250,7 +315,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section>-->
       <!-- Testimonial Area End -->
   
 
@@ -271,9 +336,9 @@
         <div class="row">
           <div class="col-xxl-12">
             <div class="cta__content-5">
-              <h2 class="cta__title-5 wow wcfadeUp" data-wow-delay="0.3s">Book  <span>Now</span>
+              <h2 class="cta__title-5 wow wcfadeUp" data-wow-delay="0.3s">Join   <span>Our Team</span>
               </h2>
-              <a href="{{route('booking_path')}}" class="wc-btn-secondary btn-hover wow wcfadeUp" data-wow-delay="0.6s"><span></span>
+              <a href="{{route('career_path')}}" class="wc-btn-secondary btn-hover wow wcfadeUp" data-wow-delay="0.6s"><span></span>
                 Know more <i class="fa-solid fa-arrow-right"></i></a>
             </div>
           </div>

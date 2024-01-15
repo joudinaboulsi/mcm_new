@@ -18,7 +18,7 @@
                 <li><a href="{{route('projects_path')}}">Projects</a></li>
                 <li><a href="{{route('fleets_path')}}">Our Fleets</a></li>
                 <li><a href="{{route('career_path')}}">Careers</a></li>
-                <li><a href="{{route('booking_path')}}">E-booking</a></li>
+               
               </ul>
             </div>
           </div>

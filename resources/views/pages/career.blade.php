@@ -21,25 +21,34 @@
                             complete the application form below. We look forward to hearing from you!
 
                         </p>
+
                         <div class="contact__form wow wcfadeUp" data-wow-delay="0.75s">
-                            <form action="{{route('career_sent_path')}}" method="POST" class="row">
+
+                            <form action="{{route('career_sent_path')}}" method="POST" id="career-form" class="row">
                                 @csrf
+
+                                <div  style="display:none">
+
+                                    <ul></ul>
+                            
+                                </div>
                                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12">
                                     <!-- <label for="name">Name</label> -->
-                                    <input type="text"name="name" placeholder="Your name">
+                                    <input type="text" name="name"  id="name" placeholder="Your name" required>
+                                  
                                 </div>
                                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12">
                                     <!-- <label for="email">Email</label> -->
-                                    <input type="email" name="email" placeholder="Your email">
+                                    <input type="email" name="email" id="email" placeholder="Your email" required>
                                 </div>
                                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12">
                                     <!-- <label for="phone">Phone (Optional)</label> -->
-                                    <input type="tel" name="phone" placeholder="Your phone">
+                                    <input type="text" name="phone" id="phone" placeholder="Your phone" required>
                                 </div>
 
                                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 mb-3">
-                                    <select name="gender" class="form-control">
-                                        <option selected> Select Gender</option>
+                                    <select name="gender" class="form-control" required>
+                                        <option> Select Gender</option>
                                         <option value="Male">Male</option>
                                         <option value="Female">Female</option>
                                     </select>
@@ -48,7 +57,7 @@
 
                                 <div class="col-xxl-12">
                                     <!-- <label for="message">Message</label> -->
-                                    <textarea  name="message" placeholder="Type your message..."></textarea>
+                                    <textarea  name="message" id="message" placeholder="Type your message..." required></textarea>
                                 </div>
                                 <div class="col-xxl-12">
                                     <button class="submit wc-btn-primary btn-hover" type="submit"><span></span> Send
@@ -62,4 +71,6 @@
         </div>
     </section>
     <!-- Contact Area End -->
+
+   
 @endsection

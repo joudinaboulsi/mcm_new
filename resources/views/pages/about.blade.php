@@ -23,18 +23,24 @@
                         </div>
                       
                         <p class="about__right-4-text wow wcfadeUp" data-wow-delay="0.45s">
+                          
                             supplying Ready Mix Concrete covering Mount
-                            Lebanon & Beirut areas.</p>
+                            Lebanon & Beirut areas.
+                            
+                            MCM Concrete is a sister company of MCM
+                            Group, having a long history in building
+                            construction and contracting fields
+                            in the Middle East and Gulf countries
+                            (Lebanon, UAE and KSA).</p>
 
                         <p class="about__right-4-text wow wcfadeUp">
-                            MCM Concrete is managed in partnership with Engineer Joseph Zbeidy, who has 15 years experience
-                            in the ready mix concrete industry.
-                            <br>
-                            We are supplying ready mix concrete for MCM Group Lebanon that is undertaking various
-                            construction projects in Beirut and North Lebanon (Las Salinas resort).
-                            <br>
-                            We are commited to establishing long term, valuable business relationships by providing its
-                            customers with quality materials at competitve prices.
+                            MCM Concrete is managed in partnership with Engineer Joseph Zbeidy, who has 15 years experience in the ready mix concrete industry.<br>
+
+We are supplying ready mix concrete for MCM Group Lebanon that is undertaking various construction projects in Beirut and North Lebanon (Las Salinas resort). <br>
+
+We are commited to establishing long term, valuable business relationships by providing its customers with quality materials at competitve prices.
+
+
                         </p>
 
                      
@@ -43,11 +49,11 @@
                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                     <div class="about__left-4 zi-9">
                         <div class="about__left-4-img">
-                          <img class="about__img4-1" src="assets/imgs/about/4/1.jpg" alt="About Image">
-                          <img class="about__img4-2" src="assets/imgs/about/4/3.jpg" alt="About Image">
+                          <img class="about__img4-1" src="abouts/img1.jpg" alt="About Image">
+                          <img class="about__img4-2" src="abouts/img3.jpg" alt="About Image">
                         </div>
                         <div class="about__left-4-img-2">
-                          <img class="about__img4-3" src="assets/imgs/about/4/2.jpg" alt="About Image">
+                          <img class="about__img4-3" src="abouts/img2.jpg" alt="About Image">
                         </div>
                       </div>
                 </div>
@@ -77,9 +83,9 @@
             <div class="row">
                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                     <div class="feature__left wow wcfadeUp" data-wow-delay="0.3s">
-                      <img class="feature__img-1" src="assets/imgs/feature/2/1.jpg" alt="feature Image">
-                      <img class="feature__img-2" src="assets/imgs/feature/2/2.jpg" alt="feature Image">
-                      <img class="feature__img-3" src="assets/imgs/feature/2/3.jpg" alt="feature Image">
+                      <img class="feature__img-1" src="abouts/img5.jpg" alt="feature Image">
+                      <img class="feature__img-2" src="abouts/img4.jpg" alt="feature Image">
+                      <img class="feature__img-3" src="abouts/img.jpg" alt="feature Image">
                     
                     </div>
                   </div>
@@ -92,11 +98,13 @@
 
                         <div class="feature__tab-wrapper">
                             <p class="about__right-4-text wow wcfadeUp" data-wow-delay="0.45s">
-                                We understand that our product, concrete is one of the most unique
-                                and versatile building materials in the world.
-                                <br> <br>
-                                It can assume virtually any shape and reach great strengths.
-                                Mixing, transportation, placing and curing can influence its plastic and hardened propreties
+                            we understand that our product, concrete is one of the most unique
+                            and versatile building materials in the world.
+
+                            It can assume virtually any shape and reach great strengths.
+                            Mixing, transportation, placing and curing can influence its plastic and hardened propreties.
+
+
                             </p>
 
                             <p class="about__right-4-text wow wcfadeUp" data-wow-delay="0.45s">
@@ -131,12 +139,12 @@
             <div class="row g-0">
                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                     <div class="feature__left wow wcfadeUp" data-wow-delay="0.3s">
-                        <img class="feature__img-3" src="assets/imgs/feature/2/3.jpg" alt="feature Image">
+                        <img class="feature__img-3" src="abouts/img.jpg" alt="feature Image">
                     
                     </div>
 
                     <div class="feature__left wow wcfadeUp mt-4" data-wow-delay="0.3s">
-                        <img class="feature__img-3" src="assets/imgs/feature/2/3.jpg" alt="feature Image">
+                        <img class="feature__img-3" src="abouts/img6.jpg" alt="feature Image">
                     
                     </div>
                 </div>
